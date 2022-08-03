@@ -1,0 +1,159 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style-type: none; */
+
+}
+body{
+    background-image: url(../img/white-painted-wall-texture-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    padding: 30px;
+    background-color: rgb(3, 3, 73);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+}
+main{
+    padding-top: 250px;
+}
+.test {
+    padding: 100px;
+    text-indent: 30px;
+    border: 10px dotted black;
+    background-image: url(../img/smile.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.list{
+    width: 300px;
+}
+.test::first-line {
+    font-size: 20px;
+    color: rgb(104, 2, 38);
+}
+.test::first-letter{
+    font-size: 40px;
+}
+.test::selection{
+    background-color: green;
+    color: rgb(65, 2, 43);
+}
+.list li::marker{
+    color: brown;
+    font-size: 20px;
+}
+.list>:first-child{
+    background-color: pink;
+
+}
+.list>:last-child{
+    background-color: green;
+}
+.list>:nth-child(2),.list>:nth-child(3){
+    background-color: blue;
+}
+.test::before{
+    content: "----";
+}
+.test::after{
+    content: "?";
+}
+.link::before{
+    content: "<< ";
+}
+.surati::before{
+    content: url(../img/smile.png);
+}
+.surati::after{
+    content: url(../img/smilex.png);
+}
+h1{
+    width: 150px;
+    height: 100px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999999px;
+}
+h1 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(74, 15, 25);
+    padding: 100px;
+    position: relative;
+    margin: 50px auto;
+}
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    padding: 100px;
+}
+.baby {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+
+    /*--------- like,add carts,save icons position------- */
+    /* background-image: url(../img/shopping-cart.png);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+
+    /* ------gacentrebis kodi----- */
+
+    /* bottom: 0;
+    left:50%;
+    margin-left: -50px; */
+}
+.color {
+    background-color: blue;
+    position: sticky;
+    top: 200px;
+    z-index: 4;
+}
+.social {
+    width: 100px;
+    height: 200px;
+    /* background-color: rgb(230, 60, 88); */
+    position: fixed;
+    top: 200px;
+    right: 0;
+
+}
+.facebook, .instagram {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.facebook {
+    background-image: url(../img/facebook.png);
+   
+}
+.instagram {
+    background-image: url(../img/instagram.png);
+    
+}
+.facebook a, .instagram a {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
